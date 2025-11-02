@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlirtFlow 💘</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>FlirtFlow 💘</h1>
+    <p>What's your love vibe today?</p>
+    <div id="mood-toggle">
+      <button data-mood="flirty">✨</button>
+      <button data-mood="chill">😌</button>
+      <button data-mood="spicy">😈</button>
+      <button data-mood="emo">💔</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="quiz-container">
+      <h2 id="question">Loading quiz...</h2>
+      <div id="options"></div>
+      <button id="next-btn">Next</button>
+    </div>
+    <div id="result-modal" class="hidden">
+      <h2 id="result-title"></h2>
+      <p id="result-message"></p>
+      <button id="save-btn">💌 Save to Love Locker</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>Made with 💘 by Marshmellow</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
